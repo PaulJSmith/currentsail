@@ -1,1 +1,13 @@
-This is a git repo
+git #make sure its installed
+cd currentsail
+git init
+git add .  # .  the dot means commit everything
+git commit -m "first commit"
+git log #shows history of project
+after making changes
+git status
+git add .
+git commit -m "some changes"
+git log
+git checkout 04cc6asfdsfsff45235324535452345 #will bring you back in history
+git checkout master 
