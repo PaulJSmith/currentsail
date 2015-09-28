@@ -11,3 +11,7 @@ git commit -m "some changes"
 git log
 git checkout 04cc6asfdsfsff45235324535452345 #will bring you back in history
 git checkout master 
+------------------------------------------
+after github clone do
+bundle install
+rake db:migrate
