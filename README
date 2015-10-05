@@ -6,11 +6,11 @@ git commit -m "first commit"
 git log #shows history of project
 after making changes
 git status
-git add .
+git add .    # --all
 git commit -m "some changes"
 git log
 git checkout 04cc6asfdsfsff45235324535452345 #will bring you back in history
-git checkout master 
+git checkout master
 ------------------------------------------
 after github clone do
 bundle install
