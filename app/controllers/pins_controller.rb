@@ -20,15 +20,15 @@ class PinsController < ApplicationController
 			render 'new'
 		end
 	end
-	
+
 	def edit
 	end
 
 	def update
 		if @pin.update(pin_params)
 			redirect_to @pin, notice: "Current was Successfully updated!"
-		else 
-			render 'edit'	
+		else
+			render 'edit'
 		end
 	end
 
@@ -40,9 +40,9 @@ class PinsController < ApplicationController
 	private
 
 	def pin_params
-		params.require(:pin).permit(:title,:description)
+		params.require(:pin).permit(:title,:description, :image)
 	end
 	def find_pin
-		@pin = Pin.find(params[:id])	
+		@pin = Pin.find(params[:id])
 	end
-end  
+end
